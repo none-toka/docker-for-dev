@@ -9,5 +9,5 @@ Note: **Use only in your local machine!**
 - Build: `docker build -t stan-mc3:1 .` (in this directory)
 - Run: `docker run --rm --name stan-mc3 -d -p 8888:8888 -v ~/workdir:/workdir stan-mc3:1`
   - `/workdir` is the default working directory.
-  - JupyterLabs use `8888`.
-- Access to JupyterLab: [http://localhost:8888/]
+  - JupyterLabs use port `8888`.
+- Access to JupyterLab: http://localhost:8888/
