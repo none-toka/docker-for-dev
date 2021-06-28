@@ -4,7 +4,7 @@ FROM python:3
 RUN apt-get update
 # RUN pip install --upgrade pip
 RUN pip3 install --upgrade pip setuptools
-RUN pip3 install jupyterlab matplotlib pystan pymc3
+RUN pip3 install jupyterlab matplotlib pystan pymc3 seaborn
 RUN jupyter serverextension enable --py jupyterlab
 
 # 作業ディレクトリを指定
